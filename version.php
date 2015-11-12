@@ -14,6 +14,18 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
-$plugin->version  = 2013062314;
-$plugin->release = '1.0 (Build: 2013062314)';
-$plugin->maturity = MATURITY_STABLE;
+/**
+ * This file contains the version information for Mahara local plugin
+ *
+ * @package    local_mahara
+ * @copyright  2015 Catalyst IT Ltd (@link http://www.catalyst.net.nz/)
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+defined('MOODLE_INTERNAL') || die();
+
+$plugin->version   = 2015021005;
+$plugin->requires  = 2014051200;
+$plugin->component = 'local_mahara';
+$plugin->maturity  = MATURITY_STABLE;
+$plugin->release   = '1.2-mdl2.7+'; // Plugin version 1.2, for Moodle 2.7+
